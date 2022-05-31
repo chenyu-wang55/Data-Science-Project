@@ -7,31 +7,25 @@ The collected data provides information on the patient’s age, gender, appointm
 To cut costs, predict if a patient will show up on the appointment day or not
 
 # dataset
-This dataset includes 14 features and 110527 recoreds. The features are in following:
-PatientId :- Patient ID number
+This dataset includes 14 features and 110527 recoreds. 
 
-AppointmentID :- Appointment ID
+# Feature Engineering
+Determine the frequency of distinct values in each feature set 
 
-Gender :- F or M 
+Initialize a function to plot all features within the dataset to visualize for outliers 
 
-ScheduledDay :- Scheduled appointment time 
+ML algorithm requires the variables to be coded into its equivalent integer codes. Encode the string
+categorical values into an integer code 
 
-AppointmentDay :- Appointment Day 
+Conduct variability comparison between features using a correlation matrix & drop correlated features
 
-Age :- Patient Age(years) 
+# Model Development
+Develop a Naïve Bayes, SVM, Decision tree classifiers to predict the outcome of the test using Python 
 
-Neighbourhood :- Patient Address 
+Tune the model using GridSearchCV
 
-Scholarship :- 0(have) or 1(doesn't have) 
+# Model Evaluation & Comparison
+Compare the results of the Naïve Bayes classifier and SVM with the Decision model according to the following criteria: Accuracy, Sensitivity and Specificity. Identify the model that performed best and worst according to each criterion. 
 
-Hipertension :- 0(No) or 1(yes) 
+Carry out a ROC analysis to compare the performance of the Naïve Bayes, SVM model with the Decision Tree model. Plot the ROC graph of the models.
 
-Diabetes :- 0(have) or 1(doesn't have) 
-
-Alcoholism :- 0(No) or 1(yes) 
-
-Handcap :- 0 to 4 
-
-SMS_received :- 0(recevied) or 1(didn't receive) 
-
-No-show :- yes or no 
