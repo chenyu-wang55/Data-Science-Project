@@ -1,0 +1,20 @@
+Classification Report of 30% test set on_dt_d2v is:
+              precision    recall  f1-score   support
+
+           0       0.67      0.74      0.70      1500
+           1       0.71      0.63      0.67      1500
+
+    accuracy                           0.69      3000
+   macro avg       0.69      0.69      0.69      3000
+weighted avg       0.69      0.69      0.69      3000
+
+Classification Report of 100 sample on_dt_d2v is:
+              precision    recall  f1-score   support
+
+           0       0.64      0.72      0.68        50
+           1       0.68      0.60      0.64        50
+
+    accuracy                           0.66       100
+   macro avg       0.66      0.66      0.66       100
+weighted avg       0.66      0.66      0.66       100
+

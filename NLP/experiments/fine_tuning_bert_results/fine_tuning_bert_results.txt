@@ -1,0 +1,35 @@
+In Epoch 1, Training Loss is 0.247 and Validation Loss is 0.136
+Finished Training
+Total time used 3873.1516008377075
+
+In Epoch 2, Training Loss is 0.098 and Validation Loss is 0.111
+Finished Training
+Total time used 7463.006808757782
+
+In Epoch 3, Training Loss is 0.061 and Validation Loss is 0.115
+Finished Training
+Total time used 10869.289688587189
+Started prediction of test data.
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.96      1500
+           1       0.96      0.97      0.97      1500
+
+    accuracy                           0.96      3000
+   macro avg       0.97      0.97      0.96      3000
+weighted avg       0.97      0.96      0.96      3000
+Finished prediction of test data.
+Final accuracy on labeled testing set 0.965
+Started prediction of unlabeled test data.
+Finished prediction of unlabeled test data.
+Started prediction of manually labeled test data.
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        50
+           1       1.00      0.98      0.99        50
+
+    accuracy                           0.99       100
+   macro avg       0.99      0.99      0.99       100
+weighted avg       0.99      0.99      0.99       100
+Finished prediction of manually labeled test data.
+Final accuracy on labeled testing set 0.99
