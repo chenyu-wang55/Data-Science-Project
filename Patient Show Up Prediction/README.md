@@ -9,16 +9,29 @@ To cut costs, predict if a patient will show up on the appointment day or not
 # dataset
 This dataset includes 14 features and 110527 recoreds. The features are in following:
 PatientId :- Patient ID number
+
 AppointmentID :- Appointment ID
-Gender :- F or M
-ScheduledDay :- Scheduled appointment time
-AppointmentDay :- Appointment Day
-Age :- Patient Age(years)
-Neighbourhood :- Patient Address
-Scholarship :- 0(have) or 1(doesn't have)
-Hipertension :- 0(No) or 1(yes)
-Diabetes :- 0(have) or 1(doesn't have)
-Alcoholism :- 0(No) or 1(yes)
-Handcap :- 0 to 4
-SMS_received :- 0(recevied) or 1(didn't receive)
-No-show :- yes or no
+
+Gender :- F or M 
+
+ScheduledDay :- Scheduled appointment time 
+
+AppointmentDay :- Appointment Day 
+
+Age :- Patient Age(years) 
+
+Neighbourhood :- Patient Address 
+
+Scholarship :- 0(have) or 1(doesn't have) 
+
+Hipertension :- 0(No) or 1(yes) 
+
+Diabetes :- 0(have) or 1(doesn't have) 
+
+Alcoholism :- 0(No) or 1(yes) 
+
+Handcap :- 0 to 4 
+
+SMS_received :- 0(recevied) or 1(didn't receive) 
+
+No-show :- yes or no 
