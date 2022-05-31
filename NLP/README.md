@@ -1,5 +1,8 @@
 # Depression Detection in Reddit’s COVID-Related Posts.
 
+# About this Project
+Detected effects of COVID-19 on people’s mental health by applying deep learning techniques on social media posts.
+
 The data_collector.py is used to fetch posts from Reddit. These data are cleaned and preprocessed by preprocess_reddit_datasets.py. The processed data are saved in '../datasets/training_dataset.p'.
 
 Then the processed training data are split further into training set, validation set, and testing set in split_dataset.py. This is to ensure the consistency of the training, validation and testing sets for different models. The datasets are stored under the names:
